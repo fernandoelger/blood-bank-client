@@ -1,0 +1,18 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Sexo</th>
+          <th scope="col">Percentual de obesos %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of percentageList">
+          <td>{{ item.sex }}</td>
+          <td>{{ item.obesePercentage }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
