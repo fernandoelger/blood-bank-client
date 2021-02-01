@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
-## Development server
+## Development server running at http://localhost:4200/
 
-Run `ng serve` for a dev server. Running at http://localhost:4200/
+Run `ng serve` for a dev server
 
 ## Dependences
 
